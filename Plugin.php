@@ -51,6 +51,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://hamid.id.ir/PersianBoard';
+        return 'https://github.com/mer30hamid/PersianBoard';
     }
 }
