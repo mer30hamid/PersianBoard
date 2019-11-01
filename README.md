@@ -32,7 +32,7 @@ Documentation
 How to use
 
 * Set the application language to persian ("فارسی") in Application settings
-* Set (Y/m/d) as date dormat in Application settings
+* Set (Y/m/d) as date format in Application settings
 
 Features
 
