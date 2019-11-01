@@ -31,7 +31,8 @@ Documentation
 
 How to use
 
-* Just set the application language to "فارسی"
+* Set the application language to persian ("فارسی") in Application settings
+* Set (Y/m/d) as date dormat in Application settings
 
 Features
 
