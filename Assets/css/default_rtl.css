@@ -33,6 +33,9 @@ textarea {
 .fc .fc-row {
     height: 100%;
 }
+.fc .fc-row table{
+    margin: 0;
+}
 
 /* fixes*/
 
