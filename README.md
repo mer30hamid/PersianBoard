@@ -6,7 +6,7 @@ Make  [Kanboard](https://kanboard.org/) compatible with Iranian Calendar (Persia
 Author
 ------
 
-- Hamid Kurd
+- Hamid Kord
 - License MIT
 
 Requirements
