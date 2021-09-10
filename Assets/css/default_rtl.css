@@ -7,8 +7,7 @@ body {
 .form-datetime,
 .form-date,
 code,
-pre,
-textarea {
+pre {
     direction: ltr;
 }
 
