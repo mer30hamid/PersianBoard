@@ -20,8 +20,10 @@ class Plugin extends Base
 
     public function onStartup()
     {
-
-        Translator::load($this->languageModel->getCurrentLanguage(), __DIR__ . '/Locale');
+        if(array_key_exists("WeKanboard",$this->pluginLoader->getPlugins())){
+            $this->hook->on("template:layout:css", array("template" => "plugins/PersianBoard/Assets/css/WeKanboard_rtl.css"));
+        }
+        //Translator::load($this->languageModel->getCurrentLanguage(), __DIR__ . '/Locale');
     }
 
     public function getPluginName()

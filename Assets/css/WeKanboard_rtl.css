@@ -1,0 +1,50 @@
+/* 13 of 152 CSS properties converted by rtl.daskhat.ir
+ These properties should be override originals.
+ just load rtl css file after original css file.*/
+
+/* body {direction:rtl;} */
+
+table th, table td{
+    border-left: 1px solid var(--middle-gray);
+}
+
+.task-board, .task-summary-container, #external-task-view{
+    border-right: 1px solid;
+    border-right-width: 4px !important;
+}
+
+.task-board-status-closed, .task-board-recent{
+    border-left: none!important;
+}
+
+.project-overview-column{
+    border-right: 1px solid var(--middle-gray);
+}
+
+.project-overview-column:last-child{
+    border-left: 1px solid var(--middle-gray);
+}
+
+.table-list-row{
+    border-right-width: 8px !important;
+}
+
+.table-list-row.table-border-left{
+    border-right: none;
+}
+
+.table-list-row:hover{
+    border-left: none;
+}
+
+.table-list-details:not(:last-child), .logo{
+    float: right;
+}
+
+#task-summary{
+    padding: 0 0 .1px 0 ;
+}
+
+#modal-close-button{
+    float: left;
+}

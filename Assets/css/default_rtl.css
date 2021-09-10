@@ -48,6 +48,25 @@ pre {
     padding-right: 10px;
 }
 
+.sidebar>ul li.active {
+    border-left: indianred;
+    border-right: 5px solid #333;
+    padding-left: inherit;
+    padding-right: 8px;
+}
+
+.sidebar>ul li:hover {
+    border-left: inherit;
+    padding-left: inherit;
+    border-right: 5px solid #555;
+    padding-right:  8px;
+}
+
+.sidebar>ul li {
+    padding-left: inherit;
+    padding-right: 13px;
+}
+
 .select-dropdown-input-container .select-dropdown-input {
     margin: 0 5px 0 5px;
 }
@@ -130,6 +149,11 @@ table td li {
 .table-list-row:hover {
     border-left: 1px solid #ffeb8e;
     border-right: none;
+}
+
+.table-list-row.color-yellow {
+    border-left: indianred;
+    border-right: 5px solid rgb(223, 227, 45)
 }
 
 .table-list-row .table-list-title.status-closed {
@@ -274,6 +298,7 @@ span.task-icon-age-column {
 
 .pull-right {
     text-align: left;
+    float: left;
 }
 
 #app-loading-icon {
