@@ -40,8 +40,5 @@ Features
 * uses Persian [vazir font](https://github.com/rastikerdar/vazir-font) 
 * converts all visible dates of the application to Persian by [Persian Date](https://github.com/babakhani/persianDate) JavaScript date library
 * uses Persian date picker and date-time picker by [Jalali calendar datepicker](https://github.com/babakhani/pwt.datepicker)
-
-TODO
-
-* Embedding Persian Calendar and making an option to enable it
-* Support RTL in other themes of application
+* Support RTL in other themes of application:
+  * [WeKanboard](https://github.com/bw-hro/WeKanboard)
