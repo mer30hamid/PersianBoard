@@ -38,12 +38,12 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'Hamid Kurd';
+        return 'Hamid Kord';
     }
 
     public function getPluginVersion()
     {
-        return '0.1.0';
+        return '1.0.0';
     }
 
     public function getCompatibleVersion()
