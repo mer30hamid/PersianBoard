@@ -6,7 +6,7 @@ Make  [Kanboard](https://kanboard.org/) compatible with Iranian Calendar (Persia
 Author
 ------
 
-- Hamid Kurd
+- Hamid Kord
 - License MIT
 
 Requirements
@@ -42,3 +42,13 @@ Features
 * uses Persian date picker and date-time picker by [Jalali calendar datepicker](https://github.com/babakhani/pwt.datepicker)
 * Support RTL in other themes of application:
   * [WeKanboard](https://github.com/bw-hro/WeKanboard)
+
+Screenshots
+
+Board:
+![Board](https://user-images.githubusercontent.com/1561497/132904776-830446d2-bfeb-4984-ae8b-17b1281d6f98.png)
+
+New task:
+![New task](https://user-images.githubusercontent.com/1561497/132904992-8d81db03-cf5e-40f9-86a6-2071eb6a8d79.png)
+
+
