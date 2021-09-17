@@ -52,3 +52,8 @@ New task:
 ![New task](https://user-images.githubusercontent.com/1561497/132904992-8d81db03-cf5e-40f9-86a6-2071eb6a8d79.png)
 
 
+## Bonus!
+You can use Persian Calendar by installing [this plugin](https://github.com/mer30hamid/plugin-calendar), this is my fork and customized version from original calendar plugin.
+
+Screenshot:
+![image](https://user-images.githubusercontent.com/1561497/133827336-581da382-2bbd-43e6-b454-6aad22b142b6.png)
