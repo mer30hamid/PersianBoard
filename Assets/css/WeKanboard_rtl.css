@@ -1,43 +1,57 @@
-/* 13 of 152 CSS properties converted by rtl.daskhat.ir
- These properties should be override originals.
- just load rtl css file after original css file.*/
-
-/* body {direction:rtl;} */
+/* project header */
 
 table th, table td{
+    border-right: none;
     border-left: 1px solid var(--middle-gray);
+}
+
+div.board-add-icon{
+    float: left;
 }
 
 .task-board, .task-summary-container, #external-task-view{
+    border-left:none;
     border-right: 1px solid;
-    border-right-width: 4px !important;
+    border-right: 4px !important;
 }
 
 .task-board-status-closed, .task-board-recent{
+    border-top: none !important;
+    border-bottom: none!important;
+    border-right: 1px solid !important;
     border-left: none!important;
 }
 
+/* overview */
+
 .project-overview-column{
+    border-left: none;
     border-right: 1px solid var(--middle-gray);
 }
-
 .project-overview-column:last-child{
+    border-right: none;
     border-left: 1px solid var(--middle-gray);
 }
 
+
 .table-list-row{
-    border-right-width: 8px !important;
+    border-left-width: unset !important;
+    border-right: 8px !important;
+    border-radius: unset !important;
 }
 
-.table-list-row.table-border-left{
+.table-list-row.table-border-left
+{
+    border-left: 1px solid var(--middle-gray);
     border-right: none;
 }
 
 .table-list-row:hover{
+    border-right: 1px solid var(--middle-gray);
     border-left: none;
 }
 
-.table-list-details:not(:last-child), .logo{
+.table-list-details:not(:last-child){
     float: right;
 }
 

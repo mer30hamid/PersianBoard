@@ -15,16 +15,16 @@ class Plugin extends Base
             $this->hook->on("template:layout:js", array("template" => "plugins/PersianBoard/Assets/js/persian-date.min.js"));
             $this->hook->on("template:layout:js", array("template" => "plugins/PersianBoard/Assets/js/persian-datepicker.min.js"));
             $this->hook->on("template:layout:js", array("template" => "plugins/PersianBoard/Assets/js/PersianBoard.js"));
+            if (array_key_exists("WeKanboard", $this->pluginLoader->getPlugins())) {
+                $this->hook->on("template:layout:css", array("template" => "plugins/PersianBoard/Assets/css/WeKanboard_rtl.css"));
+            }
         }
     }
 
-    public function onStartup()
-    {
-        if(array_key_exists("WeKanboard",$this->pluginLoader->getPlugins())){
-            $this->hook->on("template:layout:css", array("template" => "plugins/PersianBoard/Assets/css/WeKanboard_rtl.css"));
-        }
-        //Translator::load($this->languageModel->getCurrentLanguage(), __DIR__ . '/Locale');
-    }
+//    public function onStartup()
+//    {
+//        Translator::load($this->languageModel->getCurrentLanguage(), __DIR__ . '/Locale');
+//    }
 
     public function getPluginName()
     {
