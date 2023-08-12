@@ -22,6 +22,10 @@ pre {
 /*    width: 100%;*/
 /*}*/
 
+#config-section {
+    overflow: scroll;
+}
+
 @font-face {
     font-family: Vazir;
     src: url(/plugins/PersianBoard/Assets/fonts/vazir/Vazir-FD-WOL.eot);
