@@ -1,5 +1,5 @@
 plugin=PersianBoard
-version=1.0.0
+version=1.0.1
 
 all:
 	@ echo "Build archive for plugin ${plugin} version=${version}"
