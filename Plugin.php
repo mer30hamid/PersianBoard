@@ -28,7 +28,7 @@ class Plugin extends Base
             $this->flash->failure('Persian Board plugin Error - Date Format : ' . $this->dateParser->getUserDateFormat(). " please change it to: Y/m/d");
         }
         elseif($this->languageModel->getCurrentLanguage() != 'fa_IR'){
-            $this->flash->failure('Persian Board plugin Error - to use this plugin you must change language to "ÙØ§Ø±Ø³ÛŒ"' );
+            $this->flash->failure('Persian Board plugin Error - to use this plugin you must change language to "فارسی"' );
         }
    }
 
